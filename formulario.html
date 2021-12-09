@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de datos</title>
+    <link rel="stylesheet" href="estiloscssproyecto.css">
+    <link rel="icon" href="IconOmar.png">
+</head>
+<body>
+    <header class="cabecera">
+        <h1>Formulario</h1>
+    </header>  
+    <nav class="navegador">
+        <h3>MENÚ DE NAVEGACIÓN</h3>
+        <ul>
+            <li class="listas"><a href="PaginaPrincipal" class="estyle"> Pagina principal</a></li>
+            <li class="listas"><a href="formulario.html" class="estyle">Formulario de datos</a></li>
+            <li class="listas"><a href="sobreelproyecto.html" class="estyle">Informacion sobre el proyecto</a></li>
+            <li class="listas"><a href="curriculum.html" class="estyle">Curriculum Vitae</a></li>
+         </ul>
+    </nav>
+    <section class="seccion">
+      <h2>Rellene los siguientes formularios:</h2>
+      <form> <!--Esta etiqueta indica al navegador que es un formulario-->
+        <p>Nombre de la empresa:<input type="text" name="Nombre" placeholder="Introduzca información"></p>
+        <p>Télefono de contacto:<input type="tel" name="telefono" placeholder="Introduzca teléfono"></p>
+        <p>Dirección:<input type="text" name="Direccion" placeholder="Introduza Calle,Avenida,Plaza..."></p>
+        <p>Correo eléctronico:<input type="email" name="correo" placeholder="Introduzca correo eléctronico"></p>
+        <p>Página web oficial:<input type="url" name="pagina"></p>
+        <p>Ciudad:<input type="text" name="ciudad"></p>
+        <p>Localidad:<input type="text" name="localidad"></p>
+        <p>Código Postal:<input type="number" name="codigo"></p>
+        <p>¿Requiere reunion prensencial?:<input type="radio">Si<input type="radio">No</p>
+        <p>Fecha:<input type="date" name="fecha"></p>
+        <p><textarea name="Informacion" cols="35" rows="1">Introducir información de interés</textarea></p>  <!--El textarea es una caja para añadir informacion se compone de cols(columnas) y rows(filas)-->
+        <p>Añadir archivos:<input type="file" name="archivo"></p>
+        <p>Restablecer formulario:<input type="reset" name="restablecer"></p>
+        <p>Marque para verificar que no es un robot:<input type="checkbox" name="caja"></p>
+        <p>Enviar:<input type="submit" name="enviar"></p>
+        <p class="imagenhtcss"></p>
+    </form>
+    </section>
+    
+    <footer class="pie">
+        <p>Aplicaciones Web</p>
+        <p>Omar Alonso el Amrani</p>
+        <p>2º SMR</p>
+    </footer>
+</body>
+</html>
