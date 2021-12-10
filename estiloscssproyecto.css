@@ -1,0 +1,170 @@
+/* El asterisco es un selector universal */
+ * {
+     box-sizing: border-box;
+    
+ }
+
+/*Estilos página principal */
+.cabecera
+{ 
+    
+    text-align: center;   /*Pone el texto en el centro*/
+    border-color: gold black;
+    border-style: solid;
+    border-width: 10px;
+    background :rgb(4, 40, 100);
+    color:white;
+    font-style:italic;  /*Pone el texto en curisva*/
+    width: 100%;  /*Ancho*/
+    height:20%; /*Alto*/
+    position: relative;  /*La caja se puede mover de su posicion pero no le afectan los elementos que esten dentro*/
+    text-decoration: underline; /*Subrayado*/
+}
+
+.seccion{
+    color: gold;
+    background-color: rgb(23, 10, 136) ;
+    text-align: center;
+    width: 70%;
+    height: 70%;
+    float:right;
+    position:relative;  
+    
+}
+
+.navegador {   
+    float:left;
+    width: 30%;
+    height: 1000px;
+    text-align: center;
+    background-image: url(img/fondonav.png);
+    position: absolute;
+    color: white;      
+    white-space:pre;  /*Salto de linea en blanco*/
+}
+
+.estyle {
+    text-decoration:underline;
+    padding: 5px;  /*Distancia entre el texto y el borde*/
+    font-weight: bold; /*Grueso de las letras*/
+    font-size: 15px;  /*Tamaño de la letra*/
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;  /*Borde del boton*/
+   
+
+}
+.pie {
+  text-align: center;
+   background-color: rgb(22, 106, 139);
+   float: left;  
+   width: 100%;
+   height: 10%;
+   position:relative;
+   margin: auto;
+   border:rgb(255, 166, 0) 5px solid;
+   border-radius: 20px;
+   font-family:monospace;  /*Tipo de fuente*/
+   font-weight: bold;
+   color:rgb(3, 248, 207);
+ 
+  
+}
+   
+.APWeb{
+    color:rgb(3, 199, 248);
+    margin: auto;
+
+}
+.listas {
+list-style-type: square;
+}
+.columnas {
+    border: 5px solid white;
+         column-count: 3;
+         text-align: center;
+         margin: auto;
+         height: 90px;
+         width: 90%;
+         color:white;         
+}    
+
+.videojuego{
+    height: 300px;
+    width: 45%;
+    border-radius: 20px;
+}
+
+.bici{
+
+    height: 300px;
+    width: 45% ;
+}
+
+.you {
+    height: 50px;
+    width: 50px;
+}
+
+.ama {
+    height: 50px;
+    width: 50px;
+}
+.spot {
+    height: 50px;
+    width: 50px;
+}
+
+/*Estilos Formulario*/
+.imagenhtcss {
+    text-align: center;
+height: 300px;
+width: 300px;
+}
+
+/*Estilos Curriculum Vitae*/
+.tablas {
+    margin: auto;
+    border-style:double;
+    padding: 10px;
+}
+
+.estilostabla {
+    color:whitesmoke;
+    font-family: cursive;
+}
+
+.video1 {
+
+    height: 350px;
+    width:350px;
+}
+
+/*Estilos Sobre el proyecto*/
+.seccion2{
+    color: gold;
+    background-color: rgb(40, 22, 139) ;
+    text-align: center;
+    float:right;
+    width: 70%;
+    height: 1000px;
+    position:relative;  
+
+}
+.presentacion{
+    text-shadow: white 6px 6px 6px;
+    text-transform: uppercase;
+    text-decoration: overline;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.iframe {
+
+    width: 700px;
+    height:500px;
+    border-radius: 50px;
+    border-color: aqua;
+}
+/*Esto es un comentario de CSS */
