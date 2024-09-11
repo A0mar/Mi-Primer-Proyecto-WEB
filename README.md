@@ -1,2 +1,1 @@
-#MI PRIMER  PROYECTO WEB
-
+Mi primer proyecto usando  las tecnologías Web para crear un borrador de CV 
